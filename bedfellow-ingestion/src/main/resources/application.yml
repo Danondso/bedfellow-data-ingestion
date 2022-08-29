@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    bootstrapAddress: "localhost:9092"
+    topicName: "bedfellow-ingestion-adapter"
+    consumer:
+      properties:
+        spring.json.trusted.packages: "*"
+server:
+  error:
+    include-stacktrace: "never"
