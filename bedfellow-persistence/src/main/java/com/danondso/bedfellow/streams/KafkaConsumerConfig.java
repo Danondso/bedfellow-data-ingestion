@@ -29,7 +29,7 @@ public class KafkaConsumerConfig {
 
         Map<String, Object> props = new HashMap<>();
         props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapAddress);
-        props.put(ConsumerConfig.GROUP_ID_CONFIG, "bedfellow-ingestion-group-id");
+        props.put(ConsumerConfig.GROUP_ID_CONFIG, "bedfellow-ingestion-persist");
         return new DefaultKafkaConsumerFactory<>(props, new StringDeserializer(), deserializer);
     }
 

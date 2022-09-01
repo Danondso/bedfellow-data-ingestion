@@ -11,8 +11,7 @@
 	<groupId>com.danondso.bedfellow</groupId>
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Bedfellow Data Ingestion</name>
-	<description>Ingestion app for bedfellow</description>
+	<name>Bedfellow Data Ingestion Persistence</name>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -47,6 +46,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 
 	<build>

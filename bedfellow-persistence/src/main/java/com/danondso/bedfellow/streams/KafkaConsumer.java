@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class KafkaConsumer {
 
-    @KafkaListener(topics = "bedfellow-ingestion-adapter", groupId = "bedfellow-ingestion-group-id")
+    @KafkaListener(topics = "bedfellow-ingestion-adapter", groupId = "bedfellow-ingestion-persist")
     public void listenGroupBedfellowIngestion(WhoSampledDTO whoSampledDTO) {
         System.out.println("Here's the message" + whoSampledDTO);
     }
