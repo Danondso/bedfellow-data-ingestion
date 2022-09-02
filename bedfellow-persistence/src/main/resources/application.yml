@@ -1,4 +1,14 @@
 spring:
+  datasource:
+    hikari:
+      connectionTimeout: 20000
+      maximumPoolSize: 5
+    url: "jdbc:postgresql://localhost:5432/postgres"
+    username: ''
+    password: ''
+  jpa:
+    hibernate:
+      ddl-auto: "create"
   kafka:
     bootstrapAddress: "localhost:9092"
     topicName: "bedfellow-ingestion-adapter"

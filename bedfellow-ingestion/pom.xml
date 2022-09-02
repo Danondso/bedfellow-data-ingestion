@@ -34,7 +34,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.danondso.bedfellow</groupId>
-			<artifactId>common</artifactId>
+			<artifactId>dto</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
